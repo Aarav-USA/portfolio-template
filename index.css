@@ -13,7 +13,6 @@ body {
  color:#ffffff;
  font-family:Helvetica, serif;
  font-weight:100;
- background-image:url("https://grapesjs.com/img/bg-gr-v.png"), url("https://grapesjs.com/img/work-desk.jpg");
  background-attachment:scroll, scroll;
  background-position:left top, center center;
  background-repeat:repeat-y, no-repeat;
@@ -71,24 +70,18 @@ body {
 }
 .card-header {
  height:155px;
- background-image:url("https://placehold.it/350x250/78c5d6/fff/image1.jpg");
  background-size:cover;
  background-position:center center;
 }
 .card-header.ch2 {
- background-image:url("https://placehold.it/350x250/459ba8/fff/image2.jpg");
 }
 .card-header.ch3 {
- background-image:url("https://placehold.it/350x250/79c267/fff/image3.jpg");
 }
 .card-header.ch4 {
- background-image:url("https://placehold.it/350x250/c5d647/fff/image4.jpg");
 }
 .card-header.ch5 {
- background-image:url("https://placehold.it/350x250/f28c33/fff/image5.jpg");
 }
 .card-header.ch6 {
- background-image:url("https://placehold.it/350x250/e868a2/fff/image6.jpg");
 }
 .card-body {
  padding:15px 15px 5px 15px;

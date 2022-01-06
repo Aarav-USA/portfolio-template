@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.clearfix{
+  clear:both;
+}
+.header-banner{
+  padding-top:35px;
+  padding-bottom:100px;
+  color:#ffffff;
+  font-family:Helvetica, serif;
+  font-weight:100;
+  background-image:url("https://grapesjs.com/img/bg-gr-v.png"), url("https://grapesjs.com/img/work-desk.jpg");
+  background-attachment:scroll, scroll;
+  background-position:left top, center center;
+  background-repeat:repeat-y, no-repeat;
+  background-size:contain, cover;
+}
+.container-width{
+  width:90%;
+  max-width:1150px;
+  margin:0 auto;
+}
+.logo-container{
+  float:left;
+  width:50%;
+}
+.logo{
+  background-color:#fff;
+  border-radius:5px;
+  width:130px;
+  padding:10px;
+  min-height:30px;
+  text-align:center;
+  line-height:30px;
+  color:#4d114f;
+  font-size:23px;
+}
+.menu{
+  float:right;
+  width:50%;
+}
+.flex-sect{
+  background-color:#fafafa;
+  padding:100px 0;
+  font-family:Helvetica, serif;
+}
+.flex-title{
+  margin-bottom:15px;
+  font-size:2em;
+  text-align:center;
+  font-weight:700;
+  color:#555;
+  padding:5px;
+}
+.am-container{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:space-around;
+}
+.am-content{
+  float:left;
+  padding:7px;
+  width:490px;
+  color:#444;
+  font-weight:100;
+  margin-top:50px;
+}
+.am-pre{
+  padding:7px;
+  color:#b1b1b1;
+  font-size:15px;
+}
+.am-title{
+  padding:7px;
+  font-size:25px;
+  font-weight:400;
+}
+.am-desc{
+  padding:7px;
+  font-size:17px;
+  line-height:25px;
+}
+#imrh{
+  background-image:linear-gradient(#202225,#202225);
+  background-repeat:repeat;
+  background-position:left top;
+  background-attachment:scroll;
+  background-size:auto;
+}
+#imbh{
+  background-image:linear-gradient(#3ba55d,#3ba55d);
+  background-repeat:repeat;
+  background-position:left top;
+  background-attachment:scroll;
+  background-size:auto;
+  color:#ffffff;
+  width:249px;
+}
+#ipsac{
+  color:#ffffff;
+  width:622px;
+}
+#i84y7{
+  color:#ffffff;
+}
+#inc4z{
+  color:#ffffff;
+}
+#ioyi{
+  background-image:linear-gradient(#2f3136,#2f3136);
+  background-repeat:repeat;
+  background-position:left top;
+  background-attachment:scroll;
+  background-size:auto;
+}
+#idj3y{
+  color:#ffffff;
+}
+#i2r6r{
+  color:#ffffff;
+  font-size:20px;
+}
+#ixuwh{
+  background-image:linear-gradient(#202225,#202225);
+  background-repeat:repeat;
+  background-position:left top;
+  background-attachment:scroll;
+  background-size:auto;
+}

@@ -10,18 +10,6 @@ body {
     clear: both;
 }
 
-.header-banner {
-    padding-top: 35px;
-    padding-bottom: 100px;
-    color: #ffffff;
-    font-family: Comic Sans MS, cursive, sans-serif;
-    font-weight: 100;
-    background-attachment: scroll, scroll;
-    background-position: left top, center center;
-    background-repeat: repeat-y, no-repeat;
-    background-size: contain, cover;
-}
-
 .container-width {
     width: 90%;
     max-width: 1150px;
@@ -65,72 +53,115 @@ body {
     padding: 5px;
 }
 
-.am-container {
+.cards {
+    padding: 20px 0;
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
     justify-content: space-around;
+    flex-flow: wrap;
 }
 
-.am-content {
-    float: left;
-    padding: 7px;
-    width: 490px;
-    color: #444;
+.card {
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    margin-bottom: 30px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    transition: all 0.5s ease;
     font-weight: 100;
-    margin-top: 50px;
+    overflow: hidden;
 }
 
-.am-pre {
-    padding: 7px;
-    color: #b1b1b1;
-    font-size: 15px;
+.card:hover {
+    margin-top: -5px;
+    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.2);
 }
 
-.am-title {
-    padding: 7px;
-    font-size: 25px;
-    font-weight: 400;
+.card-header {
+    height: 155px;
+    background-image: url("https://placehold.it/350x250/78c5d6/fff/image1.jpg");
+    background-size: cover;
+    background-position: center center;
 }
 
-.am-desc {
-    padding: 7px;
-    font-size: 17px;
-    line-height: 25px;
+.card-header.ch2 {
+    background-image: url("https://placehold.it/350x250/459ba8/fff/image2.jpg");
 }
 
-#imrh {
+.card-header.ch3 {
+    background-image: url("https://placehold.it/350x250/79c267/fff/image3.jpg");
+}
+
+.card-header.ch4 {
+    background-image: url("https://placehold.it/350x250/c5d647/fff/image4.jpg");
+}
+
+.card-header.ch5 {
+    background-image: url("https://placehold.it/350x250/f28c33/fff/image5.jpg");
+}
+
+.card-header.ch6 {
+    background-image: url("https://placehold.it/350x250/e868a2/fff/image6.jpg");
+}
+
+.card-body {
+    padding: 15px 15px 5px 15px;
+    color: #555;
+}
+
+.card-title {
+    font-size: 1.4em;
+    margin-bottom: 5px;
+}
+
+.card-desc {
+    font-size: 0.85rem;
+    line-height: 17px;
+}
+
+.foot-social-btns {
+    display: none;
+    float: right;
+    width: 50%;
+    text-align: right;
+    padding: 5px 0;
+}
+
+#imvx {
     background-image: linear-gradient(#202225, #202225);
     background-repeat: repeat;
     background-position: left top;
     background-attachment: scroll;
     background-size: auto;
+    padding: 20px 20px 20px 20px;
 }
 
-#imbh {
+#ioja {
+    font-family: Comic Sans MS, cursive, sans-serif;
+    color: #ffffff;
     background-image: linear-gradient(#3ba55d, #3ba55d);
     background-repeat: repeat;
     background-position: left top;
     background-attachment: scroll;
     background-size: auto;
-    color: #ffffff;
-    width: 249px;
+    width: 310px;
+    font-size: 25px;
+    padding: 15px 15px 15px 15px;
 }
 
-#ipsac {
+#irg5s {
     color: #ffffff;
-    width: 622px;
+    font-family: Comic Sans MS, cursive, sans-serif;
 }
 
-#i84y7 {
+#izb5t {
     color: #ffffff;
+    font-family: Comic Sans MS, cursive, sans-serif;
+    font-size: 20px;
+    text-align: center;
 }
 
-#inc4z {
-    color: #ffffff;
-}
-
-#ioyi {
+#ijx47 {
     background-image: linear-gradient(#2f3136, #2f3136);
     background-repeat: repeat;
     background-position: left top;
@@ -138,19 +169,462 @@ body {
     background-size: auto;
 }
 
-#idj3y {
+#i6tmd7 {
     color: #ffffff;
+    font-family: Comic Sans MS, cursive, sans-serif;
+    font-size: 15px;
 }
 
-#i2r6r {
-    color: #ffffff;
-    font-size: 20px;
-}
-
-#ixuwh {
+#im4y6h {
     background-image: linear-gradient(#202225, #202225);
     background-repeat: repeat;
     background-position: left top;
     background-attachment: scroll;
     background-size: auto;
+}
+
+#ioqq7q {
+    text-align: center;
+}
+
+#ibvgf {
+    color: #ffffff;
+    font-family: Comic Sans MS, cursive, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+#i0yky {
+    font-family: Comic Sans MS, cursive, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+#i6mpl {
+    background-image: linear-gradient(#36393f, #36393f);
+    background-repeat: repeat;
+    background-position: left top;
+    background-attachment: scroll;
+    background-size: auto;
+}
+
+#i6jx2 {
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+}
+
+#i3n9n {
+    color: #ffffff;
+    font-family: Comic Sans MS, cursive, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+#i7tgl {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: Comic Sans MS, cursive, sans-serif;
+    text-align: center;
+}
+
+#i10hn {
+    background-image: linear-gradient(#36393f, #36393f);
+    background-repeat: repeat;
+    background-position: left top;
+    background-attachment: scroll;
+    background-size: auto;
+}
+
+#ijh87 {
+    font-family: Comic Sans MS, cursive, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+#i53zc {
+    background-image: linear-gradient(#36393f, #36393f);
+    background-repeat: repeat;
+    background-position: left top;
+    background-attachment: scroll;
+    background-size: auto;
+}
+
+#i8rrig {
+    color: #ffffff;
+    font-family: Comic Sans MS, cursive, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+#iacmmk {
+    background-image: linear-gradient(#36393f, #36393f);
+    background-repeat: repeat;
+    background-position: left top;
+    background-attachment: scroll;
+    background-size: auto;
+}
+
+#i5g142 {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: Comic Sans MS, cursive, sans-serif;
+    text-align: center;
+}
+
+#ip2w1k {
+    background-image: linear-gradient(#36393f, #36393f);
+    background-repeat: repeat;
+    background-position: left top;
+    background-attachment: scroll;
+    background-size: auto;
+}
+
+#il2yas {
+    color: #ffffff;
+    font-family: Comic Sans MS, cursive, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+#ie6ysi {
+    background-image: linear-gradient(#36393f, #36393f);
+    background-repeat: repeat;
+    background-position: left top;
+    background-attachment: scroll;
+    background-size: auto;
+}
+
+#iit6ot {
+    color: #ffffff;
+    font-family: Comic Sans MS, cursive, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+#ibowb6 {
+    background-image: linear-gradient(#36393f, #36393f);
+    background-repeat: repeat;
+    background-position: left top;
+    background-attachment: scroll;
+    background-size: auto;
+}
+
+#i9jztv {
+    color: #ffffff;
+    font-family: Comic Sans MS, cursive, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+#imoh1n {
+    background-image: linear-gradient(#36393f, #36393f);
+    background-repeat: repeat;
+    background-position: left top;
+    background-attachment: scroll;
+    background-size: auto;
+}
+
+#iucsgy {
+    color: #ffffff;
+    font-size: 15px;
+    font-family: Comic Sans MS, cursive, sans-serif;
+    text-align: center;
+}
+
+#iku4su {
+    font-family: Comic Sans MS, cursive, sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+}
+
+#ixwpjn {
+    background-image: linear-gradient(#36393f, #36393f);
+    background-repeat: repeat;
+    background-position: left top;
+    background-attachment: scroll;
+    background-size: auto;
+}
+
+#i9eoy3 {
+    font-family: Comic Sans MS, cursive, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+#i1k1bg {
+    background-image: linear-gradient(#36393f, #36393f);
+    background-repeat: repeat;
+    background-position: left top;
+    background-attachment: scroll;
+    background-size: auto;
+}
+
+#i88q4y {
+    font-family: Comic Sans MS, cursive, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+#ilbqsv {
+    background-image: linear-gradient(#36393f, #36393f);
+    background-repeat: repeat;
+    background-position: left top;
+    background-attachment: scroll;
+    background-size: auto;
+}
+
+#ir8qd {
+    color: #ffffff;
+    font-family: Comic Sans MS, cursive, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+
+#ixjrj {
+    background-image: linear-gradient(#36393f, #36393f);
+    background-repeat: repeat;
+    background-position: left top;
+    background-attachment: scroll;
+    background-size: auto;
+}
+
+#iv0tn {
+    font-family: Comic Sans MS, cursive, sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    text-align: center;
+}
+
+#iwquz {
+    color: #ffffff;
+    font-size: 15px;
+    font-family: Comic Sans MS, cursive, sans-serif;
+    text-align: center;
+}
+
+#i7qxf {
+    color: #ffffff;
+    font-family: Comic Sans MS, cursive, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+#ij4vb {
+    color: #ffffff;
+    font-size: 15px;
+    font-family: Comic Sans MS, cursive, sans-serif;
+    text-align: center;
+}
+
+#is0n4 {
+    color: #ffffff;
+    font-size: 15px;
+    font-family: Comic Sans MS, cursive, sans-serif;
+    text-align: center;
+}
+
+#i5kf2w {
+    color: #ffffff;
+    font-size: 15px;
+    font-family: Comic Sans MS, cursive, sans-serif;
+    text-align: center;
+}
+
+#i469fh {
+    color: #ffffff;
+    font-size: 15px;
+    font-family: Comic Sans MS, cursive, sans-serif;
+    text-align: center;
+}
+
+#ip1if {
+    background-image: linear-gradient(#36393f, #36393f);
+    background-repeat: repeat;
+    background-position: left top;
+    background-attachment: scroll;
+    background-size: auto;
+}
+
+#i6vqe {
+    background-image: linear-gradient(#36393f, #36393f);
+    background-repeat: repeat;
+    background-position: left top;
+    background-attachment: scroll;
+    background-size: auto;
+}
+
+#ixb0l {
+    background-image: linear-gradient(#36393f, #36393f);
+    background-repeat: repeat;
+    background-position: left top;
+    background-attachment: scroll;
+    background-size: auto;
+}
+
+#itxgpu {
+    font-family: Comic Sans MS, cursive, sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    text-align: center;
+}
+
+#i3qu4k {
+    font-size: 15px;
+    color: #ffffff;
+    font-family: Comic Sans MS, cursive, sans-serif;
+    text-align: center;
+}
+
+#is9xj {
+    font-size: 15px;
+    font-family: Comic Sans MS, cursive, sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+#ialjxv {
+    font-family: Comic Sans MS, cursive, sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    text-align: center;
+}
+
+#idzeo8 {
+    font-size: 15px;
+    font-family: Comic Sans MS, cursive, sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+#imk6ch {
+    font-size: 15px;
+    font-family: Comic Sans MS, cursive, sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+#ibjoa6 {
+    color: #ffffff;
+    font-family: Comic Sans MS, cursive, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+#il6x5d {
+    color: #ffffff;
+    font-family: Comic Sans MS, cursive, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+
+#iaq052 {
+    color: #ffffff;
+    font-family: Comic Sans MS, cursive, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+
+#it0yjw {
+    color: #ffffff;
+    font-family: Comic Sans MS, cursive, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+
+#ihw8ok {
+    color: #ffffff;
+    font-family: Comic Sans MS, cursive, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+
+#iqj2f3 {
+    color: #ffffff;
+    font-family: Comic Sans MS, cursive, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+
+#ijsrzf {
+    color: #ffffff;
+    font-family: Comic Sans MS, cursive, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+
+#ix85yg {
+    color: #ffffff;
+    font-family: Comic Sans MS, cursive, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+
+#ipbnnx {
+    color: #ffffff;
+    font-family: Comic Sans MS, cursive, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+
+#iylx9p {
+    color: #ffffff;
+    font-family: Comic Sans MS, cursive, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+
+#ibi3wj {
+    color: #ffffff;
+    font-family: Comic Sans MS, cursive, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+
+#ibnf46 {
+    color: #ffffff;
+    font-family: Comic Sans MS, cursive, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+
+#ihjzil {
+    color: #ffffff;
+    font-family: Comic Sans MS, cursive, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+
+#islgyi {
+    color: #ffffff;
+    font-family: Comic Sans MS, cursive, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+
+#ivf8t4 {
+    color: #ffffff;
+    font-family: Comic Sans MS, cursive, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
 }
